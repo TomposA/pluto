@@ -9,10 +9,6 @@
           <span class="card-title">Napi viccek</span>
           <p>Itt van pár vicc, hogy vidámabban induljon a napod!</p>
         </div>
-        <div class="card-action">
-          <a href="#">Ez a link nem jó semmire.</a>
-          <a href="#">Ez se jó semmire.</a>
-        </div>
       </div>
     </div>
 <div
