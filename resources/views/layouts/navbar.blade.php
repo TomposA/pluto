@@ -38,6 +38,8 @@
       
     <li>
         <ul class="collapsible collapsible-accordion">
+            {{-- Todos --}}
+            <li><a class="waves-effect" href="{{ route('todos.index') }}"><i class="material-icons left">done</i>@lang('todo.todos')</a>
             <!-- language select -->
             <li>
                 <a class="collapsible-header waves-effect" style="padding-left:32px">
