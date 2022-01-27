@@ -58,7 +58,8 @@
      {{-- basic toast notification --}}
      @if (session('message'))
      <script>
-         M.toast({html: "{{ session('message') }}"});
+         M.toast({text: "{{ session('message') }}"});
+         console.log("ok");
      </script>
     @endif
 </body>
