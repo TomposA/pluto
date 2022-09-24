@@ -69,6 +69,8 @@ The basic things you will need as a beginner:
 - Validation: It is recommended to validate every user input: for example, in the controller: `$request->validate(['title' => 'required|string|max:255']);`. [Available validation rules](https://laravel.com/docs/8.x/validation#available-validation-rules).
 - Debugging: log files: `storage/logs/laravel.log` - use `Log::info('something happened', ['additional_data' => $data])` to log (also: error, warning, etc.). Alternatively, in the controllers, you can type `return response()->json(...);` to print some thing in the browser. In blades, type `{{ var_dump($data) }}` to display some data. It is worth to take a look at the [query debugging options](https://laravel.com/docs/8.x/queries#debugging) also.
 
+You can use `php artisan db` command to enter into the database directly or `php artisan tinker` to get a runtime laravel evaluation tool.
+
 ## Official documentations
 - [Laravel](https://laravel.com/docs/8.x)
 - [Materialize](https://materializecss.github.io/materialize/)
